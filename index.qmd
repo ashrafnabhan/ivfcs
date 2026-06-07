@@ -114,7 +114,9 @@ Estimate based on:
 
 - Alpha = 0.05
 
-The sample is
+The sample is 650 (325 cases and 325 controls).\
+
+Script using the package epiR in R version 4.6 \[epi.sscc(N = NA, OR=1.62, p1 = .75, p0=.65, n=NA, power=.8, r = 1, phi.coef = 0, design = 1, sided.test = 2, nfractional = FALSE, conf.level = 0.95, method = "unmatched", fleiss = FALSE)\]
 
 ## Data Collection
 
@@ -125,6 +127,8 @@ The sample is
 - Ensure data completeness and validation
 
 ## Statistical Analysis
+
+We shall use R version 4.6 to perform data analysis.
 
 ### Descriptive Analysis
 
@@ -141,9 +145,6 @@ The sample is
 - Use **logistic regression** to estimate association between prior cesarean delivery and IVF success
   - Outcome: IVF success (yes/no)
   - Exposure: prior cesarean delivery (yes/no)
-
-<!-- -->
-
 - Report **Odds Ratios (ORs) with 95% Confidence Intervals (CIs)**
 
 ### Adjusted Analysis
