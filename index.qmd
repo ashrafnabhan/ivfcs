@@ -1,0 +1,264 @@
+## Background and Rationale
+
+In vitro fertilization (IVF) success depends on multiple uterine, embryologic, and patient-related factors. Prior cesarean delivery (CD) may affect uterine integrity (e.g., cesarean scar defects, altered endometrial receptivity), potentially influencing implantation and pregnancy outcomes. However, evidence remains inconsistent. This study aims to clarify the association between prior cesarean delivery and IVF success.
+
+## Objectives
+
+### Primary Objective
+
+To evaluate whether a **history of prior cesarean delivery** is associated with **IVF success**.
+
+### Secondary Objectives
+
+- To assess whether the number of previous cesarean deliveries affects IVF outcomes
+
+- To explore whether cesarean-related factors (e.g., scar defect if available) modify outcomes
+
+- To evaluate interaction with other known confounders (age, embryo quality, etc.)
+
+------------------------------------------------------------------------
+
+## Study Design
+
+- **Design:** Observational retrospective (or prospective) case–control study
+
+- **Setting:** Fertility clinic(s) or IVF center
+
+- **Study period:** Define (e.g., January 2020 – December 2025)
+
+------------------------------------------------------------------------
+
+## Participants
+
+### Source Population
+
+Women undergoing IVF/ICSI cycles within the study period
+
+### Inclusion Criteria
+
+- Women aged 20–42 years
+
+- Undergoing IVF/ICSI with embryo transfer
+
+- History of at least one prior pregnancy (to assess cesarean history)
+
+- Complete clinical and IVF cycle data
+
+### Exclusion Criteria
+
+- Uterine anomalies (congenital malformations)
+
+- History of major uterine surgery other than cesarean (e.g., myomectomy entering cavity)
+
+- Known intrauterine pathology not treated (polyps, adhesions)
+
+- Repeated implantation failure (optional depending on design)
+
+- Missing key exposure/outcome data
+
+------------------------------------------------------------------------
+
+## Case and Control Definitions
+
+### Cases (Successful IVF)
+
+- Women with **clinical pregnancy** (defined as intrauterine gestational sac with fetal heartbeat at \~6–7 weeks), OR
+
+- Alternatively: **live birth** (preferred if data available)
+
+### Controls (Failed IVF)
+
+- Women with **negative pregnancy test** OR
+
+- Biochemical pregnancy loss / no clinical pregnancy
+
+*(Define clearly which endpoint is primary.)*
+
+------------------------------------------------------------------------
+
+## Exposure Definition
+
+### Primary Exposure
+
+- **History of prior cesarean delivery (Yes vs No)**
+
+### Exposure Categorization
+
+- No prior cesarean (reference group)
+
+- One prior cesarean
+
+- ≥2 prior cesareans (optional subgroup)
+
+------------------------------------------------------------------------
+
+## Potential Confounders
+
+Collected variables should include:
+
+### Demographic Factors
+
+- Maternal age
+
+- BMI
+
+- Smoking status
+
+### Reproductive History
+
+- Parity
+
+- Previous vaginal deliveries
+
+- Infertility duration
+
+- Infertility cause (male, tubal, unexplained, etc.)
+
+### IVF Cycle Characteristics
+
+- Type of cycle (fresh/frozen)
+
+- Embryo quality
+
+- Number of embryos transferred
+
+- Day of transfer (Day 3 vs Day 5)
+
+- Endometrial thickness
+
+- Stimulation protocol
+
+------------------------------------------------------------------------
+
+## Sample Size Considerations
+
+Estimate based on:
+
+- Expected prevalence of prior cesarean delivery (\~20–40% depending on population)
+
+- Anticipated odds ratio (e.g., 1.5 or based on literature)
+
+- Power = 80%
+
+- Alpha = 0.05
+
+(Example: \~200–400 participants per group may be needed depending on assumptions.)
+
+------------------------------------------------------------------------
+
+## Data Collection
+
+- Extract from electronic medical records or IVF databases
+
+- Use standardized data abstraction forms
+
+- Ensure data completeness and validation
+
+------------------------------------------------------------------------
+
+## Statistical Analysis
+
+### Descriptive Analysis
+
+- Compare baseline characteristics between cases and controls
+
+- Use:
+
+  - Chi-square test for categorical variables
+
+  - t-test or Mann–Whitney U for continuous variables
+
+### Main Analysis
+
+- Use **logistic regression** to estimate association between prior cesarean delivery and IVF success
+
+```         
+Outcome: IVF success (yes/no)
+Exposure: prior cesarean delivery (yes/no)
+```
+
+- Report **Odds Ratios (ORs) with 95% Confidence Intervals (CIs)**
+
+### Adjusted Analysis
+
+Adjust for confounders:
+
+- Age
+
+- BMI
+
+- Embryo quality
+
+- Number of embryos transferred
+
+- Infertility diagnosis
+
+### Sensitivity Analyses
+
+- Stratify by:
+
+  - Fresh vs frozen cycles
+
+  - Age groups (\<35 vs ≥35)
+
+- Exclude women with multiple prior cesareans (optional)
+
+------------------------------------------------------------------------
+
+## Bias and Limitations
+
+### Potential Biases
+
+- **Selection bias:** clinic-based population
+
+- **Information bias:** misclassification of exposure or outcome
+
+- **Confounding:** age, infertility etiology
+
+### Mitigation Strategies
+
+- Use strict definitions
+
+- Adjust in multivariable models
+
+- Sensitivity analyses
+
+------------------------------------------------------------------------
+
+## Ethical Considerations
+
+- Obtain approval from Institutional Review Board (IRB)
+
+- Maintain confidentiality and anonymize data
+
+- Waiver of consent possible for retrospective design
+
+------------------------------------------------------------------------
+
+## Expected Outcomes
+
+- Clarification of whether prior cesarean delivery reduces IVF success rates
+
+- Potential implications for counseling patients undergoing IVF
+
+------------------------------------------------------------------------
+
+## Timeline
+
+| Phase                  | Duration   |
+|------------------------|------------|
+| Protocol development   | 1 month    |
+| Ethical approval       | 1–2 months |
+| Data collection        | 2–4 months |
+| Analysis               | 1–2 months |
+| Manuscript preparation | 2 months   |
+
+------------------------------------------------------------------------
+
+## Strengths
+
+- Focused exposure (cesarean delivery)
+
+- Clinically relevant outcome
+
+- Feasible using existing IVF databases

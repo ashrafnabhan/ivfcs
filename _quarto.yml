@@ -1,0 +1,23 @@
+project:
+  type: manuscript
+  output-dir: docs
+  
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+  docx: default
+ 
+
+execute:
+  freeze: true
+
+editor: visual
+
+title: Association Between Prior Cesarean Delivery and IVF Outcome: A Case–Control Study Protocol
+
+bibliography: references.bib
+csl: vancouver.csl
