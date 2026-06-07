@@ -1,32 +1,26 @@
+---
+bibliography: references.bib
+---
+
 ## Background and Rationale
 
-In vitro fertilization (IVF) success depends on multiple uterine, embryologic, and patient-related factors. Prior cesarean delivery (CD) may affect uterine integrity (e.g., cesarean scar defects, altered endometrial receptivity), potentially influencing implantation and pregnancy outcomes. However, evidence remains inconsistent. This study aims to clarify the association between prior cesarean delivery and IVF success.
+In vitro fertilization (IVF) success depends depends on several factors, including the woman's age, the cause of infertility, embryo quality, and previous reproductive history. Additionally, lifestyle factors such as body mass index and smoking can also influence success rates.
+
+Prior cesarean delivery (CD) may affect uterine integrity, potentially influencing implantation and pregnancy outcomes. However, evidence remains inconsistent. One recent study suggested that a previous cesarean delivery may reduce IVF outcomes after the first subsequent embryo transfer when compared with a previous vaginal delivery. [@létourneau2026]
+
+This study aims to clarify the association between prior cesarean delivery and IVF success.
 
 ## Objectives
 
-### Primary Objective
-
-To evaluate whether a **history of prior cesarean delivery** is associated with **IVF success**.
-
-### Secondary Objectives
-
-- To assess whether the number of previous cesarean deliveries affects IVF outcomes
-
-- To explore whether cesarean-related factors (e.g., scar defect if available) modify outcomes
-
-- To evaluate interaction with other known confounders (age, embryo quality, etc.)
-
-------------------------------------------------------------------------
+The primary Objective of this study is to evaluate whether a **history of prior cesarean delivery** is associated with **IVF success**.
 
 ## Study Design
 
-- **Design:** Observational retrospective (or prospective) case–control study
+- **Design:** Observational, case–control study
 
-- **Setting:** Fertility clinic(s) or IVF center
+- **Setting:** Fertility centers
 
-- **Study period:** Define (e.g., January 2020 – December 2025)
-
-------------------------------------------------------------------------
+- **Study period:** planned to begin in August 2026
 
 ## Participants
 
@@ -40,47 +34,33 @@ Women undergoing IVF/ICSI cycles within the study period
 
 - Undergoing IVF/ICSI with embryo transfer
 
-- History of at least one prior pregnancy (to assess cesarean history)
-
-- Complete clinical and IVF cycle data
+- History of at least one prior delivery
 
 ### Exclusion Criteria
 
 - Uterine anomalies (congenital malformations)
 
-- History of major uterine surgery other than cesarean (e.g., myomectomy entering cavity)
+- History of major uterine surgery other than cesarean namely myomectomy entering cavity
 
-- Known intrauterine pathology not treated (polyps, adhesions)
-
-- Repeated implantation failure (optional depending on design)
+- Known intrauterine pathology not treated (adhesions)
 
 - Missing key exposure/outcome data
-
-------------------------------------------------------------------------
 
 ## Case and Control Definitions
 
 ### Cases (Successful IVF)
 
-- Women with **clinical pregnancy** (defined as intrauterine gestational sac with fetal heartbeat at \~6–7 weeks), OR
-
-- Alternatively: **live birth** (preferred if data available)
+- Women with **clinical pregnancy** (defined as intrauterine gestational sac with fetal heartbeat at \~6–7 weeks)
 
 ### Controls (Failed IVF)
 
-- Women with **negative pregnancy test** OR
-
-- Biochemical pregnancy loss / no clinical pregnancy
-
-*(Define clearly which endpoint is primary.)*
-
-------------------------------------------------------------------------
+- Women with **negative pregnancy test**
 
 ## Exposure Definition
 
 ### Primary Exposure
 
-- **History of prior cesarean delivery (Yes vs No)**
+- **History of prior cesarean delivery (Binary variable)**
 
 ### Exposure Categorization
 
@@ -88,9 +68,7 @@ Women undergoing IVF/ICSI cycles within the study period
 
 - One prior cesarean
 
-- ≥2 prior cesareans (optional subgroup)
-
-------------------------------------------------------------------------
+- ≥2 prior cesareans
 
 ## Potential Confounders
 
@@ -112,7 +90,7 @@ Collected variables should include:
 
 - Infertility duration
 
-- Infertility cause (male, tubal, unexplained, etc.)
+- Infertility cause
 
 ### IVF Cycle Characteristics
 
@@ -128,23 +106,19 @@ Collected variables should include:
 
 - Stimulation protocol
 
-------------------------------------------------------------------------
-
 ## Sample Size Considerations
 
 Estimate based on:
 
-- Expected prevalence of prior cesarean delivery (\~20–40% depending on population)
+- Expected prevalence of prior cesarean delivery (60%)
 
-- Anticipated odds ratio (e.g., 1.5 or based on literature)
+- Anticipated odds ratio (0.8)
 
 - Power = 80%
 
 - Alpha = 0.05
 
-(Example: \~200–400 participants per group may be needed depending on assumptions.)
-
-------------------------------------------------------------------------
+The sample is
 
 ## Data Collection
 
@@ -153,8 +127,6 @@ Estimate based on:
 - Use standardized data abstraction forms
 
 - Ensure data completeness and validation
-
-------------------------------------------------------------------------
 
 ## Statistical Analysis
 
@@ -203,15 +175,9 @@ Adjust for confounders:
 
 - Exclude women with multiple prior cesareans (optional)
 
-------------------------------------------------------------------------
-
 ## Bias and Limitations
 
-### Potential Biases
-
 - **Selection bias:** clinic-based population
-
-- **Information bias:** misclassification of exposure or outcome
 
 - **Confounding:** age, infertility etiology
 
@@ -223,25 +189,19 @@ Adjust for confounders:
 
 - Sensitivity analyses
 
-------------------------------------------------------------------------
-
 ## Ethical Considerations
 
 - Obtain approval from Institutional Review Board (IRB)
 
 - Maintain confidentiality and anonymize data
 
-- Waiver of consent possible for retrospective design
-
-------------------------------------------------------------------------
+- Waiver of consent possible for the use of anonymized routinely collected healthdata
 
 ## Expected Outcomes
 
 - Clarification of whether prior cesarean delivery reduces IVF success rates
 
 - Potential implications for counseling patients undergoing IVF
-
-------------------------------------------------------------------------
 
 ## Timeline
 
@@ -252,8 +212,6 @@ Adjust for confounders:
 | Data collection        | 2–4 months |
 | Analysis               | 1–2 months |
 | Manuscript preparation | 2 months   |
-
-------------------------------------------------------------------------
 
 ## Strengths
 
