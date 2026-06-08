@@ -1,6 +1,6 @@
 ## Background and Rationale
 
-In vitro fertilization (IVF) success depends depends on several factors, including the woman's age, the cause of infertility, embryo quality, and previous reproductive history. Additionally, lifestyle factors such as body mass index and smoking can also influence success rates.
+In vitro fertilization (IVF) success depends depends on several factors, including the woman's age, the cause of infertility, embryo quality, and previous reproductive history. Additionally, lifestyle factors such as body mass index and smoking can also influence success rates. [@Manimala2024]
 
 Prior cesarean delivery (CD) may affect uterine integrity, potentially influencing implantation and pregnancy outcomes. However, evidence remains inconsistent. One recent study suggested that a previous cesarean delivery may reduce IVF outcomes after the first subsequent embryo transfer when compared with a previous vaginal delivery. [@létourneau2026]
 
@@ -16,7 +16,11 @@ The primary Objective of this study is to evaluate whether a **history of prior
 
 - **Setting:** Fertility centers
 
-- **Study period:** planned to begin in August 2026
+- **Study period:** 
+
+  - Anticipated start date: August 2026
+
+  - Anticipated end date: November 2026
 
 ## Participants
 
@@ -104,21 +108,19 @@ Collected variables should include:
 
 ## Sample Size Considerations
 
-Estimate based on:
+- Estimate based on:
 
-- the expected study odds ratio: 1.6
+  - expected study odds ratio: 1.8
 
-- exposure amongst the cases: 0.75
+  - exposure amongst the controls: 0.6
 
-- exposure amongst the controls: 0.65
+  - Power = 80%
 
-- Power = 80%
+  - Alpha = 0.05
 
-- Alpha = 0.05
+- The sample is 414 (207 cases and 207 controls). [@fleiss2003]
 
-The sample is 684 (342 cases and 342 controls).\
-
-Script using the package epiR in R version 4.6 \[epi.sscc(N = NA, OR=1.6, p1 = .75, p0=.65, n=NA, power=.8, r = 1, phi.coef = 0, design = 1, sided.test = 2, nfractional = FALSE, conf.level = 0.95, method = "unmatched", fleiss = FALSE)\]
+- Script using the package epiR [@epiR2093] in R version 4.6 [@RCoreTeam2026] \[epi.sscc(N = NA, OR=1.8, p1 = NA, p0=.6, n=NA, power=.8, r = 1, sided.test = 2, conf.level = 0.95, method = "unmatched")\]
 
 ## Data Collection
 

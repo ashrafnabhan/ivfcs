@@ -69,8 +69,11 @@ div.csl-indent {
 <meta name="citation_author" content="Sara Abdelkader">
 <meta name="citation_author" content="Ashraf Nabhan">
 <meta name="citation_language" content="en">
-<meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
 <meta name="citation_reference" content="citation_title=The impact of a previous cesarean delivery on in vitro fertilization outcomes: A registry-based cohort study;,citation_author=Isabelle Létourneau;,citation_author=Mark Walker;,citation_author=Jenna Gale;,citation_publication_date=2026-06;,citation_cover_date=2026-06;,citation_year=2026;,citation_fulltext_html_url=http://dx.doi.org/10.1016/j.ajog.2026.02.025;,citation_issue=6;,citation_doi=10.1016/j.ajog.2026.02.025;,citation_volume=234;,citation_language=en;,citation_journal_title=American Journal of Obstetrics and Gynecology;">
+<meta name="citation_reference" content="citation_title=Statistical methods for rates and proportions;,citation_author=Joseph L. Fleiss;,citation_author=Bruce Levin;,citation_author=Myunghee Cho Paik;,citation_publication_date=2003;,citation_cover_date=2003;,citation_year=2003;,citation_isbn=978-0471526292;">
+<meta name="citation_reference" content="citation_title=R: A language and environment for statistical computing;,citation_author=R Core Team;,citation_publication_date=2026;,citation_cover_date=2026;,citation_year=2026;,citation_fulltext_html_url=https://www.R-project.org/;">
+<meta name="citation_reference" content="citation_title=epiR: Tools for the analysis of epidemiological data;,citation_author=Mark Stevenson;,citation_author=Tim Nunes;,citation_author=Chris Heuer;,citation_author=Jon Marshall;,citation_author=Javier Sanchez;,citation_author=Rob Thornton;,citation_author=Jozsef Reiczigel;,citation_author=Jennifer Robison-Cox;,citation_author=Paola Sebastiani;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://CRAN.R-project.org/package=epiR;">
+<meta name="citation_reference" content="citation_title=Predictors of success following in vitro fertilization;,citation_author=Nevin Manimala;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_doi=10.1016/j.fertnstert.2024.03.003;,citation_journal_title=Fertility and Sterility;">
 </head>
 
 <body class="quarto-light">
@@ -191,8 +194,8 @@ div.csl-indent {
 
 <section id="background-and-rationale" class="level2">
 <h2 class="anchored" data-anchor-id="background-and-rationale">Background and Rationale</h2>
-<p>In vitro fertilization (IVF) success depends depends on several factors, including the woman’s age, the cause of infertility, embryo quality, and previous reproductive history. Additionally, lifestyle factors such as body mass index and smoking can also influence success rates.</p>
-<p>Prior cesarean delivery (CD) may affect uterine integrity, potentially influencing implantation and pregnancy outcomes. However, evidence remains inconsistent. One recent study suggested that a previous cesarean delivery may reduce IVF outcomes after the first subsequent embryo transfer when compared with a previous vaginal delivery. <span class="citation" data-cites="létourneau2026">[<a href="#ref-létourneau2026" role="doc-biblioref">1</a>]</span></p>
+<p>In vitro fertilization (IVF) success depends depends on several factors, including the woman’s age, the cause of infertility, embryo quality, and previous reproductive history. Additionally, lifestyle factors such as body mass index and smoking can also influence success rates. <span class="citation" data-cites="Manimala2024">[<a href="#ref-Manimala2024" role="doc-biblioref">1</a>]</span></p>
+<p>Prior cesarean delivery (CD) may affect uterine integrity, potentially influencing implantation and pregnancy outcomes. However, evidence remains inconsistent. One recent study suggested that a previous cesarean delivery may reduce IVF outcomes after the first subsequent embryo transfer when compared with a previous vaginal delivery. <span class="citation" data-cites="létourneau2026">[<a href="#ref-létourneau2026" role="doc-biblioref">2</a>]</span></p>
 <p>This study aims to clarify the association between prior cesarean delivery and IVF success.</p>
 </section>
 <section id="objectives" class="level2">
@@ -204,7 +207,11 @@ div.csl-indent {
 <ul>
 <li><p><strong>Design:</strong>&nbsp;Observational, case–control study</p></li>
 <li><p><strong>Setting:</strong>&nbsp;Fertility centers</p></li>
-<li><p><strong>Study period:</strong>&nbsp;planned to begin in August 2026</p></li>
+<li><p><strong>Study period:</strong>&nbsp;</p>
+<ul>
+<li><p>Anticipated start date: August 2026</p></li>
+<li><p>Anticipated end date: November 2026</p></li>
+</ul></li>
 </ul>
 </section>
 <section id="participants" class="level2">
@@ -297,17 +304,17 @@ div.csl-indent {
 </section>
 <section id="sample-size-considerations" class="level2">
 <h2 class="anchored" data-anchor-id="sample-size-considerations">Sample Size Considerations</h2>
-<p>Estimate based on:</p>
 <ul>
-<li><p>the expected study odds ratio: 1.6</p></li>
-<li><p>exposure amongst the cases: 0.75</p></li>
-<li><p>exposure amongst the controls: 0.65</p></li>
+<li><p>Estimate based on:</p>
+<ul>
+<li><p>expected study odds ratio: 1.8</p></li>
+<li><p>exposure amongst the controls: 0.6</p></li>
 <li><p>Power = 80%</p></li>
 <li><p>Alpha = 0.05</p></li>
+</ul></li>
+<li><p>The sample is 414 (207 cases and 207 controls). <span class="citation" data-cites="fleiss2003">[<a href="#ref-fleiss2003" role="doc-biblioref">3</a>]</span></p></li>
+<li><p>Script using the package epiR <span class="citation" data-cites="epiR2093">[<a href="#ref-epiR2093" role="doc-biblioref">4</a>]</span> in R version 4.6 <span class="citation" data-cites="RCoreTeam2026">[<a href="#ref-RCoreTeam2026" role="doc-biblioref">5</a>]</span> [epi.sscc(N = NA, OR=1.8, p1 = NA, p0=.6, n=NA, power=.8, r = 1, sided.test = 2, conf.level = 0.95, method = “unmatched”)]</p></li>
 </ul>
-<p>The sample is 684 (342 cases and 342 controls).<br>
-</p>
-<p>Script using the package epiR in R version 4.6 [epi.sscc(N = NA, OR=1.6, p1 = .75, p0=.65, n=NA, power=.8, r = 1, phi.coef = 0, design = 1, sided.test = 2, nfractional = FALSE, conf.level = 0.95, method = “unmatched”, fleiss = FALSE)]</p>
 </section>
 <section id="data-collection" class="level2">
 <h2 class="anchored" data-anchor-id="data-collection">Data Collection</h2>
@@ -440,8 +447,20 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-Manimala2024" class="csl-entry" role="listitem">
+1. Manimala N. <a href="https://doi.org/10.1016/j.fertnstert.2024.03.003">Predictors of success following in vitro fertilization</a>. Fertility and Sterility. 2024;
+</div>
 <div id="ref-létourneau2026" class="csl-entry" role="listitem">
-1. Létourneau I, Walker M, Gale J. The impact of a previous cesarean delivery on in vitro fertilization outcomes: A registry-based cohort study. American Journal of Obstetrics and Gynecology [Internet]. 2026;234:1671–9. Available from: <a href="http://dx.doi.org/10.1016/j.ajog.2026.02.025">http://dx.doi.org/10.1016/j.ajog.2026.02.025</a>
+2. Létourneau I, Walker M, Gale J. The impact of a previous cesarean delivery on in vitro fertilization outcomes: A registry-based cohort study. American Journal of Obstetrics and Gynecology [Internet]. 2026;234:1671–9. Available from: <a href="http://dx.doi.org/10.1016/j.ajog.2026.02.025">http://dx.doi.org/10.1016/j.ajog.2026.02.025</a>
+</div>
+<div id="ref-fleiss2003" class="csl-entry" role="listitem">
+3. Fleiss JL, Levin B, Paik MC. Statistical methods for rates and proportions. 3rd ed. New York: John Wiley &amp; Sons; 2003.
+</div>
+<div id="ref-epiR2093" class="csl-entry" role="listitem">
+4. Stevenson M, Nunes T, Heuer C, Marshall J, Sanchez J, Thornton R, et al. epiR: Tools for the analysis of epidemiological data [Internet]. 2024. Available from: <a href="https://CRAN.R-project.org/package=epiR">https://CRAN.R-project.org/package=epiR</a>
+</div>
+<div id="ref-RCoreTeam2026" class="csl-entry" role="listitem">
+5. R Core Team. R: A language and environment for statistical computing [Internet]. Vienna, Austria: R Foundation for Statistical Computing; 2026. Available from: <a href="https://www.R-project.org/">https://www.R-project.org/</a>
 </div>
 </div></section></div></main>
 <!-- /main column -->
