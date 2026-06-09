@@ -2,13 +2,13 @@
 
 In vitro fertilization (IVF) success depends depends on several factors, including the woman's age, the cause of infertility, embryo quality, and previous reproductive history. Additionally, lifestyle factors such as body mass index and smoking can also influence success rates. [@Manimala2024]
 
-Prior cesarean delivery (CD) may affect uterine integrity, potentially influencing implantation and pregnancy outcomes. Few studies reported a modest reduction in pregnancy rates in IVF cycles in with a previous cesarean delivery compared with a previous vaginal delivery. [@létourneau2026; @wang2017] However, evidence remains insufficient.
+Prior cesarean delivery (CD) has been hypothesized to alter uterine integrity, thereby potentially affecting endometrial receptivity, embryo implantation, and subsequent pregnancy outcomes. However, the existing literature yields inconsistent and sometimes contradictory findings regarding the effect of previous cesarean delivery on assisted reproductive technology (ART) outcomes. Specifically, studies evaluating in vitro fertilization (IVF) have reported variable effects on key outcomes, including clinical pregnancy, miscarriage, preterm birth, and live birth rates, when compared with women who have a history of prior vaginal delivery. [@wang2017; @vissers2020; @riemma2021; @wang2022; @vitagliano2024; @létourneau2026]
 
-This study aims to clarify the association between prior cesarean delivery and IVF success.
+This study aims to clarify the association between prior cesarean delivery and IVF success in the context of an extremely high cesarean section rates.
 
 ## Objectives
 
-The primary Objective of this study is to evaluate whether a **history of prior cesarean delivery** is associated with **IVF success**.
+The primary objective of this study is to evaluate whether a **history of prior cesarean delivery** is associated with **IVF success**.
 
 ## Study Design
 
