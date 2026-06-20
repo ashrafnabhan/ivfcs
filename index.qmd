@@ -4,11 +4,9 @@ In vitro fertilization (IVF) success depends depends on several factors, includi
 
 Prior cesarean delivery (CD) has been hypothesized to alter uterine integrity, thereby potentially affecting endometrial receptivity, embryo implantation, and subsequent pregnancy outcomes. However, the existing literature yields inconsistent and sometimes contradictory findings regarding the effect of previous cesarean delivery on assisted reproductive technology (ART) outcomes. Specifically, studies evaluating in vitro fertilization (IVF) have reported variable effects on key outcomes, including clinical pregnancy, miscarriage, preterm birth, and live birth rates, when compared with women who have a history of prior vaginal delivery. [@wang2017; @vissers2020; @riemma2021; @wang2022; @vitagliano2024; @létourneau2026]
 
-This study aims to clarify the association between prior cesarean delivery and IVF success in the context of an extremely high cesarean section rates.
-
 ## Objectives
 
-The primary objective of this study is to evaluate whether a **history of prior cesarean delivery** is associated with **IVF success**.
+We aim to assess the association between prior cesarean delivery and IVF success in a population with a high cesarean births.
 
 ## Study Design
 
@@ -30,11 +28,13 @@ Women undergoing IVF/ICSI cycles within the study period
 
 ### Inclusion Criteria
 
-- Women aged 20–42 years
+- Women of reproductive age
 
-- Undergoing IVF/ICSI with embryo transfer
+<!-- -->
 
-- History of at least one prior delivery
+- Undergoing in vitro fertilization (IVF) or intracytoplasmic sperm injection (ICSI) with planned embryo transfer
+
+- History of at least one previous delivery
 
 ### Exclusion Criteria
 
@@ -48,11 +48,11 @@ Women undergoing IVF/ICSI cycles within the study period
 
 ## Case and Control Definitions
 
-### Cases (Successful IVF)
+### Controls (Successful IVF)
 
 - Women with **clinical pregnancy** (defined as intrauterine gestational sac with fetal heartbeat at \~6–7 weeks)
 
-### Controls (Failed IVF)
+### Cases (Failed IVF)
 
 - Women with **negative pregnancy test**
 
@@ -72,7 +72,7 @@ Women undergoing IVF/ICSI cycles within the study period
 
 ## Potential Confounders
 
-Collected variables should include:
+Collected variables will include:
 
 ### Demographic Factors
 
@@ -85,8 +85,6 @@ Collected variables should include:
 ### Reproductive History
 
 - Parity
-
-- Previous vaginal deliveries
 
 - Infertility duration
 
@@ -124,7 +122,7 @@ Collected variables should include:
 
 ## Data Collection
 
-- Extract from electronic medical records or IVF databases
+- Extract from electronic IVF databases
 
 - Use standardized data abstraction forms
 
